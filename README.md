@@ -5,7 +5,7 @@ by Tim Meier, [meier3@llnl.gov](mailto:meier3@llnl.gov)
 **LcCommon.jar** provides a variety of common utility and/or convenience classes
 for java projects and applications.  Many of these are specific to LC.
 
-Released under the GNU LGPL, `LLNL-CODE-nnnn`.  See the `LICENSE`
+Released under the GNU LGPL, `LLNL-CODE-673346`.  See the `LICENSE`
 file for details.
 
 Overview
