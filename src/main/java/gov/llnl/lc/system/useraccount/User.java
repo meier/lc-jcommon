@@ -1,9 +1,14 @@
-/********************************************************************
- * Copyright (C) 2014, Lawrence Livermore National Security, LLC.
- * Produced at Lawrence Livermore National Laboratory (cf, DISCLAIMER).
- * CODE-235483
+/************************************************************
+ * Copyright (c) 2015, Lawrence Livermore National Security, LLC.
+ * Produced at the Lawrence Livermore National Laboratory.
+ * Written by Timothy Meier, meier3@llnl.gov, All rights reserved.
+ * LLNL-CODE-673346
+ *
+ * This file is part of the OpenSM Monitoring Service (OMS) package.
  * 
- * For details, see http://www.llnl.gov/linux/
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License (as published by
+ * the Free Software Foundation) version 2.1 dated February 1999.
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,6 +31,22 @@
  * A. This notice is required to be provided under our contract with the U.S.
  * Department of Energy (DOE). This work was produced at the Lawrence Livermore
  * National Laboratory under Contract No.  DE-AC52-07NA27344 with the DOE.
+ *
+ * B. Neither the United States Government nor Lawrence Livermore National
+ * Security, LLC nor any of their employees, makes any warranty, express or
+ * implied, or assumes any liability or responsibility for the accuracy,
+ * completeness, or usefulness of any information, apparatus, product, or
+ * process disclosed, or represents that its use would not infringe privately-
+ * owned rights.
+ *
+ * C. Also, reference herein to any specific commercial products, process, or
+ * services by trade name, trademark, manufacturer or otherwise does not
+ * necessarily constitute or imply its endorsement, recommendation, or favoring
+ * by the United States Government or Lawrence Livermore National Security,
+ * LLC. The views and opinions of authors expressed herein do not necessarily
+ * state or reflect those of the United States Government or Lawrence Livermore
+ * National Security, LLC, and shall not be used for advertising or product
+ * endorsement purposes.
  *
  *        file: User.java
  *
