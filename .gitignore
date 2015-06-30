@@ -1,6 +1,8 @@
-.classpath
+# Eclipse specific git ignore
 .project
-.settings/
+.classpath
+.settings
+
 .gradle
 build/
 
