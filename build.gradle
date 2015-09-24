@@ -19,7 +19,7 @@ repositories {
 
 task makeDistro() << {
     def subdir = new File(project.buildDir, "distributions")
-    println("subdir: "+subdir)
+    println("subdir: "+ subdir)
 
     if( !subdir.exists() ) {
         println("creating subdir")
@@ -102,7 +102,6 @@ jar {
     doLast {
       println "2. Renaming now, from ${rootProject.name}" + "-" + version + ".jar to ${rootProject.name}" + ".jar"
       renameJar
-
     }
  }
 
