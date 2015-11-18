@@ -57,6 +57,7 @@ package gov.llnl.lc.util;
 
 import gov.llnl.lc.logging.CommonLogger;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -96,8 +97,11 @@ import java.util.Map.Entry;
  * 
  * @version Nov 17, 2011 4:42:58 PM
  **********************************************************************/
-public class BinList<T> implements CommonLogger, Iterable<ArrayList<T>>
+public class BinList<T> implements CommonLogger, Iterable<ArrayList<T>>, Serializable
 {
+  /**  describe serialVersionUID here **/
+  private static final long serialVersionUID = 3675568117319681158L;
+
   /** a list of a list of <T>s **/
   private java.util.ArrayList <ArrayList<T>> Bin_List = new java.util.ArrayList<ArrayList<T>>();
 
